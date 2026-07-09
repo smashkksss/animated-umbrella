@@ -1,0 +1,124 @@
+🇨🇳 中文版
+DarkSword — iOS 全链漏洞利用研究项目
+📖 项目概述
+DarkSword 是一套针对 Apple iOS 设备的全链漏洞利用工具包（full-chain exploit kit），由 Google Threat Intelligence Group（GTIG）于 2025 年 11 月首次发现并命名。该项目旨在对 DarkSword 的攻击链进行代码研究、复现分析与防御技术探讨。
+
+DarkSword 的攻击链完全基于 JavaScript 实现，从用户访问恶意网页开始，逐层突破沙箱限制，最终实现内核级权限控制。该工具已被多个威胁组织用于实战攻击，目标涵盖沙特阿拉伯、土耳其、马来西亚、乌克兰等国家和地区。
+
+⚠️ 重要声明：本仓库仅供安全研究、漏洞分析和学术讨论之用。任何将本项目代码用于非法攻击的行为均与本项目无关，请遵守当地法律法规。
+
+🎯 影响范围
+项目	详情
+目标系统	iOS / iPadOS 18.4 ～ 18.7
+受影响最严重版本	iOS 18.4 ～ 18.6.2
+已修复版本	iOS 18.7.3 及以上、iOS 26.2 及以上
+不适用设备	iPhone 17 系列及 iPad M5（因 MTE 硬件防护）
+🔗 漏洞利用链组成
+DarkSword 串联了 6 个独立漏洞（含 3 个零日漏洞），按攻击阶段排列如下：
+
+阶段	漏洞编号	作用
+远程代码执行 (RCE)	CVE-2025-31277 / CVE-2025-43529	在 WebContent 进程内执行任意 JavaScript 代码
+PAC 绕过	CVE-2026-20700	绕过苹果指针认证（Pointer Authentication）硬件防护
+沙箱逃逸 #1	CVE-2025-14174	从 WebContent 进程逃逸至 GPU 进程
+沙箱逃逸 #2	CVE-2025-43510	从 GPU 进程逃逸至 mediaplaybackd 进程
+内核提权	CVE-2025-43520	获取内核级读写权限，实现设备完全控制
+完整的攻击路径为：网页访问 → WebContent RCE → PAC 绕过 → GPU 沙箱逃逸 → mediaplaybackd 逃逸 → 内核提权。
+
+📁 项目文件结构
+text
+DarkSword/
+├── README.md                    # 项目说明
+├── index.html                   # 入口页面（着陆页）
+├── frame.html                   # 中间加载器
+├── rce_loader.js                # 主编排器 — 检测 iOS 版本并协调各阶段
+├── rce_module.js                # RCE 模块（iOS 18.4 偏移量表）
+├── rce_module_18.6.js           # RCE 模块（iOS 18.6+）
+├── rce_worker.js                # RCE Web Worker（iOS 18.4 + PAC 绕过）
+├── rce_worker_18.6.js           # RCE Web Worker（iOS 18.6+，CVE-2025-43529）
+├── sbx0_main_18.4.js            # 沙箱逃逸 #1（WebContent → GPU 进程）
+├── sbx1_main.js                 # 沙箱逃逸 #2（GPU → mediaplaybackd）
+└── pe_main.js                   # 内核提权（Privilege Escalation）
+各模块大小：pe_main.js ~778KB，rce_worker_18.6.js ~526KB，sbx0_main_18.4.js ~425KB。
+
+🚀 搭建与运行（研究环境）
+环境要求
+Python 3.x（用于启动 HTTP 服务器）
+
+目标设备：iOS 18.4 ～ 18.7 的 iPhone/iPad（仅供测试设备使用）
+
+研究者需具备基础的 Web 安全与 iOS 逆向工程知识
+
+快速启动
+bash
+# 1. 克隆仓库
+git clone https://github.com/xxx/DarkSword.git
+cd DarkSword
+
+# 2. 启动 HTTP 服务器
+python3 server.py
+# 或
+python server.py
+
+# 3. 在目标设备的浏览器中访问
+# http://[服务器IP地址]/frame.html
+攻击流程简图
+text
+受害者访问恶意网站
+       │
+       ▼
+[index.html] 设置会话 UID，创建隐藏 iframe
+       │
+       ▼
+[frame.html] 动态加载 rce_loader.js
+       │
+       ▼
+[rce_loader.js] 通过 User-Agent 提取 iOS 版本
+       │
+       ├──► iOS 18.4–18.5 → rce_module.js + rce_worker.js (CVE-2025-31277)
+       └──► iOS 18.6+     → rce_module_18.6.js + rce_worker_18.6.js (CVE-2025-43529)
+       │
+       ▼
+PAC 绕过 (CVE-2026-20700)
+       │
+       ▼
+沙箱逃逸 → 内核提权 → 设备完全控制
+🔬 研究方向与讨论话题
+代码研究方向
+addrof / fakeobj 原语构建：分析 JavaScriptCore 引擎中类型混淆漏洞的触发机制与内存布局
+
+PAC 绕过技术：研究 CVE-2026-20700 如何通过 dyld 插桩机制绕过指针认证
+
+沙箱逃逸链：分析从 WebContent → GPU → mediaplaybackd 的逐层逃逸逻辑
+
+无文件攻击技术：研究 DarkSword 如何在内存中完成全部攻击，不落盘
+
+搭建与复现讨论
+偏移量适配：不同 iOS 版本和机型（iPhone 12/13/14/15）的偏移量差异与适配方法
+
+MTE 对抗：iPhone 17 系列及 M5 芯片引入的 MTE（内存标记扩展）如何阻断现有利用方式
+
+稳定性优化：如何在重复测试中提高漏洞触发的成功率
+
+检测与防御：如何通过流量特征、内存特征检测 DarkSword 攻击
+
+社区讨论热点
+“民主化”风险：漏洞工具公开化是否将国家级攻击能力交到了普通犯罪分子手中
+
+AI 辅助开发：DarkSword 代码中大量注释和模块化结构被认为与 AI 生成高度吻合
+
+供应链安全：Webpack 打包源码的重构与威胁行为者的代码混淆手法
+
+防御方案：社区已出现 AntiDarkSword 等越狱插件用于阻断此类攻击
+
+📚 参考资源
+Google Cloud Blog — The Proliferation of DarkSword
+
+Lookout Threat Labs — DarkSword Analysis
+
+8kSec — How Browser Exploits Work: CVE-2025-43529 Case Study
+
+Jamf Threat Labs — DarkSword: 3 Lessons for Mobile Security
+
+CVE-2025-43529 / CVE-2025-14174 / CVE-2026-20700 官方公告
+免责声明
+本仓库所有代码与文档仅供安全研究与教育目的使用。 作者不鼓励、不支持任何形式的非法攻击行为。使用者须自行承担因使用本仓库内容而产生的一切法律责任。请在受控的测试环境中进行研究，切勿在未授权设备上运行。
