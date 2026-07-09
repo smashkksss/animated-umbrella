@@ -1,4 +1,4 @@
-custom.log
+C2-LOG  Tested on  Iphone16 Plus 18.5 
 {"timestamp":"2026-07-06T06:11:22.574Z","elapsed":0,"text":"UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E1","isError":false,"cookies":"(none)"}
 {"timestamp":"2026-07-06T06:11:22.576Z","elapsed":2,"text":"iOS version: 18.5","isError":false,"cookies":"(none)"}
 {"timestamp":"2026-07-06T06:11:23.090Z","elapsed":516,"text":"worker code fetched: 44392 bytes","isError":false,"cookies":"(none)"}
