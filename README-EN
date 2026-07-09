@@ -1,0 +1,124 @@
+DarkSword — iOS Full-Chain Exploit Research Project
+📖 Overview
+DarkSword is a full-chain exploit kit targeting Apple iOS devices, first identified and named by the Google Threat Intelligence Group (GTIG) starting in November 2025. This project is dedicated to code research, reproducible analysis, and defensive technique exploration of the DarkSword attack chain.
+
+The entire DarkSword attack chain is implemented purely in JavaScript, starting from a malicious webpage visit and escalating through multiple sandbox layers to achieve kernel-level control. The toolkit has been deployed by multiple threat actors in real-world campaigns targeting Saudi Arabia, Turkey, Malaysia, Ukraine, and other regions.
+
+⚠️ Important Disclaimer: This repository is intended solely for security research, vulnerability analysis, and academic discussion. Any use of this code for illegal purposes is strictly prohibited and is not the responsibility of this project. Please comply with all applicable laws and regulations.
+
+🎯 Affected Scope
+Item	Details
+Target OS	iOS / iPadOS 18.4 – 18.7
+Most Affected Versions	iOS 18.4 – 18.6.2
+Patched Versions	iOS 18.7.3 and above, iOS 26.2 and above
+Not Compatible	iPhone 17 series & iPad M5 (due to MTE hardware protection)
+🔗 Exploit Chain Composition
+DarkSword chains together 6 distinct vulnerabilities (including 3 zero-days), organized by attack stage as follows:
+
+Stage	CVE ID	Purpose
+RCE (Remote Code Execution)	CVE-2025-31277 / CVE-2025-43529	Execute arbitrary JavaScript within WebContent process
+PAC Bypass	CVE-2026-20700	Bypass Apple's Pointer Authentication hardware protection
+Sandbox Escape #1	CVE-2025-14174	Escape from WebContent to GPU process
+Sandbox Escape #2	CVE-2025-43510	Escape from GPU to mediaplaybackd process
+Privilege Escalation	CVE-2025-43520	Achieve kernel read/write and full device compromise
+The complete attack path is: Webpage Visit → WebContent RCE → PAC Bypass → GPU Sandbox Escape → mediaplaybackd Escape → Kernel Privilege Escalation.
+
+📁 Project File Structure
+text
+DarkSword/
+├── README.md                    # Project documentation
+├── index.html                   # Landing page — initial entry point
+├── frame.html                   # Intermediate loader
+├── rce_loader.js                # Main orchestrator — detects iOS version, coordinates stages
+├── rce_module.js                # RCE module (iOS 18.4 offsets table)
+├── rce_module_18.6.js           # RCE module (iOS 18.6+)
+├── rce_worker.js                # RCE Web Worker (iOS 18.4 + PAC bypass)
+├── rce_worker_18.6.js           # RCE Web Worker (iOS 18.6+, CVE-2025-43529)
+├── sbx0_main_18.4.js            # Sandbox Escape #1 (WebContent → GPU)
+├── sbx1_main.js                 # Sandbox Escape #2 (GPU → mediaplaybackd)
+└── pe_main.js                   # Privilege Escalation to kernel
+Module sizes: pe_main.js ~778KB, rce_worker_18.6.js ~526KB, sbx0_main_18.4.js ~425KB.
+
+🚀 Setup & Running (Research Environment)
+Requirements
+Python 3.x (for HTTP server)
+
+Target device: iPhone/iPad running iOS 18.4 – 18.7 (test devices only)
+
+Researchers should have basic knowledge of web security and iOS reverse engineering
+
+Quick Start
+bash
+# 1. Clone the repository
+git clone https://github.com/xxx/DarkSword.git
+cd DarkSword
+
+# 2. Start the HTTP server
+python3 server.py
+# or
+python server.py
+
+# 3. Access from the target device's browser
+# http://[SERVER_IP]/frame.html
+Attack Flow Diagram
+text
+Victim visits compromised website
+       │
+       ▼
+[index.html] sets session UID, creates hidden iframe
+       │
+       ▼
+[frame.html] dynamically loads rce_loader.js
+       │
+       ▼
+[rce_loader.js] extracts iOS version from User-Agent
+       │
+       ├──► iOS 18.4–18.5 → rce_module.js + rce_worker.js (CVE-2025-31277)
+       └──► iOS 18.6+     → rce_module_18.6.js + rce_worker_18.6.js (CVE-2025-43529)
+       │
+       ▼
+PAC Bypass (CVE-2026-20700)
+       │
+       ▼
+Sandbox Escape → Kernel Privilege Escalation → Full Device Compromise
+🔬 Research Directions & Discussion Topics
+Code Research
+addrof / fakeobj Primitives: Analyze type confusion vulnerability triggers and memory layout in JavaScriptCore
+
+PAC Bypass Techniques: Study how CVE-2026-20700 bypasses Pointer Authentication via dyld interposing
+
+Sandbox Escape Chain: Analyze the layered escape logic from WebContent → GPU → mediaplaybackd
+
+Fileless Attack Techniques: Study how DarkSword executes entirely in memory without writing to disk
+
+Setup & Reproduction Discussions
+Offset Adaptation: Version and device-specific offset differences (iPhone 12/13/14/15) and adaptation methods
+
+MTE Countermeasures: How MTE (Memory Tagging Extension) on iPhone 17 series and M5 chips blocks current exploitation methods
+
+Stability Optimization: Improving trigger success rates in repeated testing
+
+Detection & Defense: Identifying DarkSword attacks through traffic and memory signatures
+
+Community Discussion Highlights
+"Democratization" Risk: Does public exploit disclosure put nation-state capabilities in the hands of common criminals?
+
+AI-Assisted Development: DarkSword's extensive comments and modular structure are considered highly consistent with AI-generated code
+
+Supply Chain Security: Webpack source reconstruction and threat actor code obfuscation techniques
+
+Defense Solutions: Community projects like AntiDarkSword have emerged as jailbreak tweaks to block such attacks
+
+📚 References
+Google Cloud Blog — The Proliferation of DarkSword
+
+Lookout Threat Labs — DarkSword Analysis
+
+8kSec — How Browser Exploits Work: CVE-2025-43529 Case Study
+
+Jamf Threat Labs — DarkSword: 3 Lessons for Mobile Security
+
+CVE-2025-43529 / CVE-2025-14174 / CVE-2026-20700 Official Advisories
+
+📝 Disclaimer
+All code and documentation in this repository are provided solely for security research and educational purposes. The authors do not encourage or support any form of illegal attack activities. Users assume all legal responsibility arising from the use of the content in this repository. Please conduct research in controlled test environments and never run on unauthorized devices.
