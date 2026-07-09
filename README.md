@@ -11,13 +11,12 @@ Landing Page → rce_loader.js → rce_worker*.js → PE_main.js → Victim devi
 
 support:  TG@Linking_112  200U
 
+=========日志截图（LOGs ,SEE c2-log file)
 <img width="2228" height="1071" alt="log1" src="https://github.com/user-attachments/assets/c2b02701-49fd-443f-a117-296cdebe2020" />
-
-
 <img width="2158" height="931" alt="log2" src="https://github.com/user-attachments/assets/3f35696b-70d2-4523-ae85-e737f4db0134" />
 <img width="2232" height="986" alt="log3" src="https://github.com/user-attachments/assets/496d5828-ed9a-4aa1-991a-f5f50b94ad40" />
 
-
-
-
+=============收到文件(FILES Received)
 <img width="2230" height="1067" alt="received_files01" src="https://github.com/user-attachments/assets/347924cf-c96a-4043-9750-5cb80f22eadf" />
+<img width="2294" height="1213" alt="file1" src="https://github.com/user-attachments/assets/8b5fcbb3-af90-4c4f-b24e-d86eaccea166" />
+<img width="2278" height="1059" alt="file2" src="https://github.com/user-attachments/assets/95e5a99b-6c9c-49f6-b355-87ad63d23519" />
