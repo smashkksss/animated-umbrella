@@ -1,0 +1,497 @@
+custom.log
+{"timestamp":"2026-07-06T06:11:22.574Z","elapsed":0,"text":"UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:22.576Z","elapsed":2,"text":"iOS version: 18.5","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:23.090Z","elapsed":516,"text":"worker code fetched: 44392 bytes","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:23.095Z","elapsed":521,"text":"======================== log Begin ========================","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.589Z","elapsed":2016,"text":"[2015ms] pthread_create: 0x229222988","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.589Z","elapsed":2015,"text":"[2015ms] ios_version: 18,5","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.588Z","elapsed":2014,"text":"[2014ms] jsc_base: 0x1b63ce000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.584Z","elapsed":2010,"text":"[2010ms] RCE success","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.590Z","elapsed":2016,"text":"[2016ms] libsystem_pthread_linkedit: 0x2727a0000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.590Z","elapsed":2016,"text":"[2016ms] device_model: iPhone17,4_22F76","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.590Z","elapsed":2016,"text":"[2016ms] slide: 0x1bf70000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.591Z","elapsed":2017,"text":"[2017ms] worker: 0x10e032dc0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.592Z","elapsed":2018,"text":"[2018ms] butterfly:0x16aae4a48","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.592Z","elapsed":2018,"text":"[2018ms] Finished stage2 succesfully","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.590Z","elapsed":2016,"text":"[2016ms] libsystem_pthread_base: 0x22921c000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.589Z","elapsed":2015,"text":"[2015ms] pthread_create_got: 0x20b2a7368","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.591Z","elapsed":2017,"text":"[2017ms] Inside stage2","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.592Z","elapsed":2018,"text":"loader: check_attempt result = true","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.592Z","elapsed":2018,"text":"loader: sending stage1 to worker","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.599Z","elapsed":2025,"text":"[worker] [1113ms]  inside stage1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.600Z","elapsed":2026,"text":"[worker] [1114ms]  Finished prims succesfully","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.599Z  [worker] Finished prims succesfully
+{"timestamp":"2026-07-06T06:11:24.600Z","elapsed":2026,"text":"[worker] [1115ms]  vm: 0x10d451000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.599Z","elapsed":2025,"text":"[worker] [1113ms]  inside stage1","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.598Z  [worker] inside stage1
+{"timestamp":"2026-07-06T06:11:24.600Z","elapsed":2026,"text":"[worker] [1114ms]  Finished prims succesfully","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.600Z","elapsed":2026,"text":"[worker] [1115ms]  heap: 0x10d4510c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.601Z","elapsed":2027,"text":"[worker] [1115ms]  isSafeToCollect: 0x10d451301","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.601Z","elapsed":2027,"text":"[worker] [1115ms]  slide: 0x1bf70000","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.600Z  [worker] after write (JIT enabled)
+{"timestamp":"2026-07-06T06:11:24.620Z","elapsed":2046,"text":"[worker] [1135ms]  contexts: 0x10c105770","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.620Z","elapsed":2046,"text":"[worker] [1135ms]  contexts_length: 0x10","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.601Z","elapsed":2027,"text":"[worker] [1115ms]  after write","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.601Z","elapsed":2027,"text":"[worker] [1115ms]  after write (JIT enabled)","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.620Z","elapsed":2046,"text":"[worker] [1135ms]  defaultLoader: 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.602Z","elapsed":2028,"text":"loader: got prepare_dlopen_workers","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.620Z","elapsed":2046,"text":"[worker] [1135ms]  wrappedBitmap: 0x10e03d590","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.621Z","elapsed":2047,"text":"[worker] [1135ms]  imageBuffer: 0x10d12f800","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.621Z","elapsed":2047,"text":"[worker] [1135ms]  Load TextToSpeech","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.624Z","elapsed":2050,"text":"[worker] [1139ms]  TextToSpeech Loaded","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.624Z","elapsed":2050,"text":"[worker] [1139ms]  loadedFrameworks: 0x102b3eac0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.621Z","elapsed":2047,"text":"[worker] [1135ms]  wrappedBitmap: 0x10e044ba0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.621Z","elapsed":2047,"text":"[worker] [1135ms]  imageBuffer: 0x10d133a00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.624Z","elapsed":2050,"text":"[worker] [1139ms]  loadedFrameworks_length: 0x4","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.624Z","elapsed":2050,"text":"[worker] [1139ms]  loadedFrameworks_buffer: 0x103404140","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.624Z","elapsed":2050,"text":"[worker] [1139ms]  bundle[1]: 0x1606bf980","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.624Z","elapsed":2050,"text":"[worker] [1139ms]  NSBundleTables: 0x102b3e540","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"loader: got trigger_dlopen1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"[worker] [1140ms]  worker.thread: 0x10c1e6f00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"[worker] [1140ms]  runtimeState: 0x20952ebe0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"[worker] [1139ms]  TextToSpeech_NSBundle: 0x1606bf980","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"[worker] [1140ms]  dyld_emptySlot: 0x1c59e9b6c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"[worker] [1139ms]  TextToSpeech_CFBundle: 0x1606987e0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  runtimeStateLock: 0x16d567468","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  p_InterposeTupleAll_buffer: 0x20952ec98","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.625Z","elapsed":2051,"text":"[worker] [1140ms]  runtimeState_vtable: 0x20e7e5aa0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  stack_top: 0x16dc88000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  p.dlopen_from_lambda_ret: 0x1c59a7fc8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  0xf94007681400000f","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  stack_bottom: 0x16dd0b000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1140ms]  dyld_offset: 0x-1bf70000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.627Z","elapsed":2053,"text":"[worker] [1141ms]  loader:0x16dd08ad0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1141ms]  search_result:0x16dd08a58","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.626Z","elapsed":2052,"text":"[worker] [1141ms]  index:526936","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.627Z","elapsed":2053,"text":"[worker] [1141ms]  interposingTuples_data_ptr:0x401064130","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.627Z","elapsed":2053,"text":"[worker] [1141ms]  metadata_data_ptr:0x40100c180","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.627Z","elapsed":2053,"text":"[worker] [1141ms]  going to load AVSpeechSynthesisVoice","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.627Z","elapsed":2053,"text":"[worker] [1141ms]  prev_metadata_data_ptr:0x40100c160","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.626Z  [worker] going to load AVSpeechSynthesisVoice
+{"timestamp":"2026-07-06T06:11:24.673Z","elapsed":2099,"text":"[worker] [1188ms]  succeeded to load AVSpeechSynthesisVoice","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.673Z  [worker] succeeded to load AVSpeechSynthesisVoice
+{"timestamp":"2026-07-06T06:11:24.627Z","elapsed":2053,"text":"[worker] [1141ms]  going to load AVSpeechSynthesisVoice","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  check_dlopen2","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  worker.thread: 0x10c1e7100","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  stack_bottom: 0x16dd97000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.673Z","elapsed":2099,"text":"[worker] [1188ms]  succeeded to load","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.673Z","elapsed":2099,"text":"loader: got trigger_dlopen2","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  index:527224","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  search_result:0x16dd94b78","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  loader:0x16dd94bf0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.676Z","elapsed":2102,"text":"[worker] [1191ms]  InterposeTupleAll.size has been written","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.676Z  [worker] InterposeTupleAll.size has been written
+{"timestamp":"2026-07-06T06:11:24.676Z","elapsed":2102,"text":"[worker] [1191ms]  initMediaAccessibilityMACaptionAppearanceGetDisplayType: 0xd1698001b18e97f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  stack_top: 0x16dd14000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.676Z","elapsed":2102,"text":"[worker] [1191ms]  paciza_PAL_initPKContact: 0xc27b0001b1c69be0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.677Z","elapsed":2103,"text":"loader: got sign_pointers","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1192ms]  setup_fcall: enter","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.675Z","elapsed":2101,"text":"[worker] [1190ms]  metadata_data_ptr:0x40100c1a0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.676Z","elapsed":2102,"text":"[worker] [1191ms]  InterposeTupleAll.size has been written","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  paciza_invoker: 0x8147000258e317e8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  paciza_security_invoker_1: 0x88368001a754b688","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  paciza_security_invoker_2: 0x67d8001a755f958","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  paciza_signPointer: 0x2d360001c59b33e4","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  setup_fcall: paciza pointers read","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.678Z  [worker] setup_fcall: paciza pointers read
+2026-07-06T06:11:24.677Z  [worker] setup_fcall: enter
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  paciza_dlsym: 0xf8110001c97e1a34","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.678Z","elapsed":2104,"text":"[worker] [1193ms]  paciza_dlopen: 0x840d8001c97e07b8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  libsystem_pthread: 0x2400035319fc60","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  setup_fcall: libsystem_pthread dlopen'd","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.679Z  [worker] setup_fcall: libsystem_pthread dlopen'd
+2026-07-06T06:11:24.679Z  [worker] setup_fcall: libsystem_malloc dlopen'd
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  paciza_malloc: 0x20200001af31b03c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  setup_fcall: dlsym done, starting PAC gadget signing","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  libsystem_malloc: 0x59000353e1b910","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.679Z  [worker] setup_fcall: dlsym done, starting PAC gadget signing
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1194ms]  gadget_control_2:0x1c97dec28","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1194ms]  gadget_control_1:0x25b08c2ec","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  signed_pthread_create: 0x8d3b800229222988","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.679Z","elapsed":2105,"text":"[worker] [1194ms]  setup_fcall: libsystem_malloc dlopen'd","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1194ms]  gadget_loop_1: 0x1a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  gadget_loop_2: 0x2291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  gadget_loop_3: 0x1a0c9df1c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  paciza_gadget_loop_2: 0x821d0002291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  paciza_gadget_loop_3: 0x5c688001a0c9df1c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1194ms]  gadget_control_3: 0x23b1f9150","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  paciza_gadget_control_2: 0x50140001c97dec28","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  paciza_gadget_loop_1: 0x43540001a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  gadget_set_all_registers: 0x229f4616c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.680Z","elapsed":2106,"text":"[worker] [1195ms]  paciza_gadget_control_3: 0x330980023b1f9150","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1195ms]  paciza_gadget_control_3_4: 0x274200023b1f9154","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1196ms]  paciza_gadget_set_all_registers: 0x9071800229f4616c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1196ms]  WebContent fcall thread has been spawned!!","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1196ms]  WebContent fcall thread has been spawned!!","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.681Z  [worker] WebContent fcall thread has been spawned!!
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1196ms]  setup_fcall: pacia gadgets done, creating JOP thread","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1196ms]  jop_stack_top:0x16dda0000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1196ms]  jop_stack_bottom:0x16de28000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1196ms]  x19: 0x402008100","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.681Z  [worker] setup_fcall: pacia gadgets done, creating JOP thread
+{"timestamp":"2026-07-06T06:11:24.681Z","elapsed":2107,"text":"[worker] [1196ms]  pthread_node:0x16de23000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1196ms]  x22: 0x40100c220","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1196ms]  x20: 0x401078130","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  paciza_gadget_control_1: 0x534200025b08c2ec","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  pacib_gadget_loop_2_0x80010: 0x4b188002291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  pacib_gadget_loop_2_0x800b0: 0x4090002291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  setup_fcall: pacib gadgets done, starting JOP stack setup","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1196ms]  stack: 0x401400000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  pacib_gadget_loop_1_0x80020: 0x8d158001a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  pacib_gadget_loop_1_0x800c0: 0xaf190001a256c18c","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.682Z  [worker] setup_fcall: pacib gadgets done, starting JOP stack setup
+{"timestamp":"2026-07-06T06:11:24.682Z","elapsed":2108,"text":"[worker] [1197ms]  JOP stack configured","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:24.682Z  [worker] JOP stack configured
+{"timestamp":"2026-07-06T06:11:24.683Z","elapsed":2109,"text":"[worker] [1198ms]  rce_end, loading sbx0...","isError":false,"cookies":"(none)"}
+
+{"timestamp":"2026-07-06T06:11:28.751Z","elapsed":6177,"text":"[worker] [5266ms]  sbx0 script fetched, evaluating...","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.751Z  [worker] sbx0 script fetched, evaluating...
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] \tm_drawingArea: 0x10e009340","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] \tm_isRenderingSuspended: 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] [CHKPT 1] rendering suspended set, webPages count=1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] CHKPT 1: rendering suspended, webPages=1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] webPage: 0x102b4fc68","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] webProcess: 0x10e000100","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] runLoopHolder_tid: 0x103","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.755Z  [worker] [SBX0] CHKPT 1: rendering suspended, webPages=1
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] CHKPT 2: setting up backend connections","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] [CHKPT 2] setting up rendering backend connections...","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] -> connection: 0x10c056080","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.756Z","elapsed":6182,"text":"[worker] [5270ms]  [SBX0] [CHKPT 3] rendering backend connections done, count=1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.756Z","elapsed":6182,"text":"[worker] [5270ms]  [SBX0] CHKPT 3: backend connections done","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.755Z  [worker] [SBX0] CHKPT 2: setting up backend connections
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] -> remoteRenderingBackendProxy: 0x10c02a120","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.755Z","elapsed":6181,"text":"[worker] [5270ms]  [SBX0] -> streamConnection: 0x10e013f50","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.755Z  [worker] [SBX0] CHKPT 3: backend connections done
+{"timestamp":"2026-07-06T06:11:28.756Z","elapsed":6182,"text":"[worker] [5271ms]  [SBX0] [CHKPT 4] gpuProcessConnection=0x10c15f9c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.756Z","elapsed":6182,"text":"[worker] [5271ms]  [SBX0] CHKPT 4: gpuProcessConnection=0x10c15f9c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.756Z","elapsed":6182,"text":"[worker] [5271ms]  [SBX0] uiProcessConnection: 0x10c054340","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.757Z","elapsed":6183,"text":"[worker] [5272ms]  [SBX0] [+] SBX0() (retry: 0)","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.757Z  [worker] [SBX0] Starting, retry=0
+{"timestamp":"2026-07-06T06:11:28.758Z","elapsed":6184,"text":"[worker] [5273ms]  [SBX0] [-] going to respawn gpu process","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.758Z","elapsed":6184,"text":"[worker] [5273ms]  [SBX0] new gpuProcessConnection: 0x10c31c0e0","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.756Z  [worker] [SBX0] CHKPT 4: gpuProcessConnection=0x10c15f9c0
+{"timestamp":"2026-07-06T06:11:28.758Z","elapsed":6184,"text":"[worker] [5273ms]  [SBX0] waiting for sendPort","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.757Z","elapsed":6183,"text":"[worker] [5272ms]  [SBX0] Starting, retry=0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.757Z","elapsed":6183,"text":"[worker] [5272ms]  [SBX0] crashGPUProcess(\"process cleanup\")","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.786Z","elapsed":6212,"text":"[worker] [5301ms]  [SBX0] received sendPort","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.786Z","elapsed":6212,"text":"[worker] [5301ms]  [SBX0] maybe_port: 0x5c0b","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.786Z","elapsed":6212,"text":"[worker] [5301ms]  [SBX0] [+] SBX0() (retry: 1)","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.786Z  [worker] [SBX0] Starting, retry=1
+{"timestamp":"2026-07-06T06:11:28.787Z","elapsed":6213,"text":"[worker] [5302ms]  [SBX0] glConnection.identifier: 0x100000000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.788Z","elapsed":6214,"text":"[worker] [5303ms]  [SBX0] Connection.receiveMessages(): met bda","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.786Z","elapsed":6212,"text":"[worker] [5301ms]  [SBX0] Starting, retry=1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.788Z","elapsed":6214,"text":"[worker] [5303ms]  [SBX0] RemoteRenderingBackend created","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.804Z","elapsed":6230,"text":"[worker] [5319ms]  [SBX0] Connection.receiveMessages(): met bda","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.804Z","elapsed":6230,"text":"[worker] [5319ms]  [SBX0] Connection.receiveMessages(): met 409","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.787Z","elapsed":6213,"text":"[worker] [5302ms]  [SBX0] backendConnection.identifier: 0xffffffff","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.815Z","elapsed":6241,"text":"[worker] [5330ms]  [SBX0] Vertex shader created. ID:1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.788Z","elapsed":6214,"text":"[worker] [5303ms]  [SBX0] Connection.receiveMessages(): met 5a5","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.815Z","elapsed":6241,"text":"[worker] [5330ms]  [SBX0] Vertex shader sourced","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.817Z","elapsed":6243,"text":"[worker] [5332ms]  [SBX0] Vertex shader compiled","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.817Z","elapsed":6243,"text":"[worker] [5332ms]  [SBX0] Fragment shader created. ID:2","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.817Z","elapsed":6243,"text":"[worker] [5332ms]  [SBX0] Fragment shader sourced","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.817Z","elapsed":6243,"text":"[worker] [5332ms]  [SBX0] Fragment shader compiled","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.804Z","elapsed":6230,"text":"[worker] [5319ms]  [SBX0] RemoteGraphicsContextGL created","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.818Z","elapsed":6244,"text":"[worker] [5333ms]  [SBX0] Fragment shader has been attached","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.818Z","elapsed":6244,"text":"[worker] [5333ms]  [SBX0] Program has been linked","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.818Z","elapsed":6244,"text":"[worker] [5333ms]  [SBX0] Program enabled","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.818Z","elapsed":6244,"text":"[worker] [5333ms]  [SBX0] Program has been created. ID:3","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.819Z","elapsed":6245,"text":"[worker] [5334ms]  [SBX0] [GPU DEBUG] currentSprayProfile() called, chipset=22f32fd975a694d340a6ad22b872b1ae, type=string, retry_count=2","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.819Z","elapsed":6245,"text":"[worker] [5334ms]  [SBX0] [GPU DEBUG] chipset MATCHED known profile: compact (pixelUnpackFill=0x8015c8)","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.818Z","elapsed":6244,"text":"[worker] [5333ms]  [SBX0] Vertex shader has been attached","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.819Z","elapsed":6245,"text":"[worker] [5334ms]  [SBX0] chipset MATCHED: compact","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.819Z","elapsed":6245,"text":"[worker] [5334ms]  [SBX0] spray profile: compact chipset=22f32fd975a694d340a6ad22b872b1ae","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:28.819Z  [worker] [SBX0] chipset MATCHED: compact
+{"timestamp":"2026-07-06T06:11:28.819Z","elapsed":6245,"text":"[worker] [5334ms]  [SBX0] oob()","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.887Z","elapsed":6313,"text":"[worker] [5402ms]  [SBX0] FINISHED oob()","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.895Z","elapsed":6321,"text":"[worker] [5410ms]  [SBX0] glThread: 0x10b010480","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.888Z","elapsed":6314,"text":"[worker] [5403ms]  [SBX0] Cache font ID: 0x10000002e","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.896Z","elapsed":6322,"text":"[worker] [5411ms]  [SBX0] currentThreadIndex: 0x106","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.834Z","elapsed":6260,"text":"[worker] [5349ms]  [SBX0] [profiler] prepare_layout took 11ms","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.888Z","elapsed":6314,"text":"[worker] [5403ms]  [SBX0] preparePrimitives","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.896Z","elapsed":6322,"text":"[worker] [5411ms]  [SBX0] pthread_tls: 0x10fb34000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.896Z","elapsed":6322,"text":"[worker] [5411ms]  [SBX0] glBuffer: 0x113494c00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.897Z","elapsed":6323,"text":"[worker] [5412ms]  [SBX0] rxBufferMtl: 0x113695f80","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.895Z","elapsed":6321,"text":"[worker] [5410ms]  [SBX0] pthread_ptr: 0x16f3a7000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.899Z","elapsed":6325,"text":"[worker] [5414ms]  [SBX0] offsets.free_slabs: 0x209919a90","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.897Z","elapsed":6323,"text":"[worker] [5412ms]  [SBX0] AGXA13FamilyBuffer: 0x10f9ca400","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.900Z","elapsed":6326,"text":"[worker] [5415ms]  [SBX0] Found our GPUConnectionToWebProcess: 0x10b080190","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.901Z","elapsed":6327,"text":"[worker] [5416ms]  [SBX0] \tm_imageBuffer: 0x10d006850","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.901Z","elapsed":6327,"text":"[worker] [5416ms]  [SBX0] Image ID: 0x100000021 - remote_display_list_recorder: 0x10b11cae0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.897Z","elapsed":6323,"text":"[worker] [5412ms]  [SBX0] rxMtlBuffer: 0x101ca2d40","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.901Z","elapsed":6327,"text":"[worker] [5416ms]  [SBX0] \tm_backend: 0x10d006730","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.900Z","elapsed":6326,"text":"[worker] [5415ms]  [SBX0] Found our RenderingBackend: 0x10b024540","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.901Z","elapsed":6327,"text":"[worker] [5416ms]  [SBX0] m_remoteDisplayLists: 0x10b140140","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.902Z","elapsed":6328,"text":"[worker] [5417ms]  [SBX0] \tCGContextDelegate: 0x101e7f0c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.902Z","elapsed":6328,"text":"[worker] [5417ms]  [SBX0] \tm_platformContext: 0x10f895e00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.902Z","elapsed":6328,"text":"[worker] [5417ms]  [SBX0] \tIOSurfaceContextDelegate: 0x10f8bf780","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.907Z","elapsed":6333,"text":"[worker] [5422ms]  [SBX0] \t\t0x1254ec000 : 0x1136d1c00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.907Z","elapsed":6333,"text":"[worker] [5421ms]  [SBX0] \tCA Header Before restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.912Z","elapsed":6338,"text":"[worker] [5427ms]  [SBX0] \t\t0x1254ec008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.902Z","elapsed":6328,"text":"[worker] [5417ms]  [SBX0] \tIOSurfaceDrawable: 0x1136ace00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.913Z","elapsed":6339,"text":"[worker] [5428ms]  [SBX0] \t\t0x1254ec010 : 0x8000001000005e90","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.913Z","elapsed":6339,"text":"[worker] [5428ms]  [SBX0] \t\t0x1254ec018 : 0x8000000fffffde70","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.913Z","elapsed":6339,"text":"[worker] [5428ms]  [SBX0] \t\t0x1254ec020 : 0x1254f4020","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.906Z","elapsed":6332,"text":"[worker] [5421ms]  [SBX0] \tIOSurfaceQueue: 0x1136d1c00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.906Z","elapsed":6332,"text":"[worker] [5421ms]  [SBX0] \tCAPointer: 0x1254ec000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.914Z","elapsed":6340,"text":"[worker] [5429ms]  [SBX0] \t\t0x1254ec000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.914Z","elapsed":6340,"text":"[worker] [5429ms]  [SBX0] \tCA Header After restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.914Z","elapsed":6340,"text":"[worker] [5429ms]  [SBX0] \t\t0x1254ec008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.914Z","elapsed":6340,"text":"[worker] [5429ms]  [SBX0] \t\t0x1254ec010 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.915Z","elapsed":6341,"text":"[worker] [5429ms]  [SBX0] Image ID: 0x100000022 - remote_display_list_recorder: 0x10b11cb30","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.915Z","elapsed":6341,"text":"[worker] [5430ms]  [SBX0] \tm_imageBuffer: 0x10d0068e0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.915Z","elapsed":6341,"text":"[worker] [5430ms]  [SBX0] \tm_backend: 0x10d006790","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.914Z","elapsed":6340,"text":"[worker] [5429ms]  [SBX0] \t\t0x1254ec018 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.915Z","elapsed":6341,"text":"[worker] [5430ms]  [SBX0] \tCGContextDelegate: 0x101e7f200","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.916Z","elapsed":6342,"text":"[worker] [5431ms]  [SBX0] \tIOSurfaceContextDelegate: 0x10f8bf900","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.915Z","elapsed":6341,"text":"[worker] [5430ms]  [SBX0] \tm_platformContext: 0x10f895ec0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.914Z","elapsed":6340,"text":"[worker] [5429ms]  [SBX0] \t\t0x1254ec020 : 0x1254ec000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.916Z","elapsed":6342,"text":"[worker] [5431ms]  [SBX0] \tCAPointer: 0x1254f4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.916Z","elapsed":6342,"text":"[worker] [5431ms]  [SBX0] \tCA Header Before restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.917Z","elapsed":6343,"text":"[worker] [5432ms]  [SBX0] \t\t0x1254f4000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.916Z","elapsed":6342,"text":"[worker] [5431ms]  [SBX0] \tIOSurfaceDrawable: 0x1136ace70","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.916Z","elapsed":6342,"text":"[worker] [5431ms]  [SBX0] \tIOSurfaceQueue: 0x1136d1ce0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.917Z","elapsed":6343,"text":"[worker] [5432ms]  [SBX0] \t\t0x1254f4010 : 0x10000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.917Z","elapsed":6343,"text":"[worker] [5432ms]  [SBX0] \t\t0x1254f4008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.918Z","elapsed":6344,"text":"[worker] [5433ms]  [SBX0] \t\t0x1254f4020 : 0x125504030","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.919Z","elapsed":6345,"text":"[worker] [5434ms]  [SBX0] \t\t0x1254f4008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.919Z","elapsed":6345,"text":"[worker] [5434ms]  [SBX0] \t\t0x1254f4000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.922Z","elapsed":6348,"text":"[worker] [5437ms]  [SBX0] \t\t0x1254f4010 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.917Z","elapsed":6343,"text":"[worker] [5432ms]  [SBX0] \t\t0x1254f4018 : 0x100b0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.922Z","elapsed":6348,"text":"[worker] [5437ms]  [SBX0] Image ID: 0x100000023 - remote_display_list_recorder: 0x10b11cb80","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.922Z","elapsed":6348,"text":"[worker] [5437ms]  [SBX0] \t\t0x1254f4020 : 0x1254f4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.923Z","elapsed":6349,"text":"[worker] [5438ms]  [SBX0] \tm_imageBuffer: 0x10d006a30","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.919Z","elapsed":6345,"text":"[worker] [5434ms]  [SBX0] \tCA Header After restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.922Z","elapsed":6348,"text":"[worker] [5437ms]  [SBX0] \t\t0x1254f4018 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.923Z","elapsed":6349,"text":"[worker] [5438ms]  [SBX0] \tm_platformContext: 0x10f895f80","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.923Z","elapsed":6349,"text":"[worker] [5438ms]  [SBX0] \tm_backend: 0x10d0067f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.923Z","elapsed":6349,"text":"[worker] [5438ms]  [SBX0] \tCGContextDelegate: 0x101e7f340","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.924Z","elapsed":6350,"text":"[worker] [5439ms]  [SBX0] \tIOSurfaceQueue: 0x1136d1dc0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.924Z","elapsed":6350,"text":"[worker] [5439ms]  [SBX0] \tCAPointer: 0x1254fc000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.924Z","elapsed":6350,"text":"[worker] [5439ms]  [SBX0] \tCA Header Before restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.923Z","elapsed":6349,"text":"[worker] [5438ms]  [SBX0] \tIOSurfaceContextDelegate: 0x10f8bfa80","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.924Z","elapsed":6350,"text":"[worker] [5439ms]  [SBX0] \tIOSurfaceDrawable: 0x1136acee0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.925Z","elapsed":6351,"text":"[worker] [5440ms]  [SBX0] \t\t0x1254fc010 : 0x10000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.925Z","elapsed":6351,"text":"[worker] [5440ms]  [SBX0] \t\t0x1254fc018 : 0x1ff50","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.925Z","elapsed":6351,"text":"[worker] [5439ms]  [SBX0] \t\t0x1254fc008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.924Z","elapsed":6350,"text":"[worker] [5439ms]  [SBX0] \t\t0x1254fc000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] \t\t0x1254fc000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] \tCA Header After restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] \t\t0x1254fc008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] \t\t0x1254fc018 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] \t\t0x1254fc020 : 0x1254fc000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] Image ID: 0x100000024 - remote_display_list_recorder: 0x10b11cbd0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.929Z","elapsed":6355,"text":"[worker] [5444ms]  [SBX0] \t\t0x1254fc020 : 0x209a884b8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.931Z","elapsed":6357,"text":"[worker] [5446ms]  [SBX0] \tm_backend: 0x10d006b50","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.931Z","elapsed":6357,"text":"[worker] [5446ms]  [SBX0] \tm_platformContext: 0x10f896040","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.930Z","elapsed":6356,"text":"[worker] [5445ms]  [SBX0] \t\t0x1254fc010 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.931Z","elapsed":6357,"text":"[worker] [5446ms]  [SBX0] \tCGContextDelegate: 0x101e7f480","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.932Z","elapsed":6358,"text":"[worker] [5447ms]  [SBX0] \tIOSurfaceDrawable: 0x1136acf50","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.932Z","elapsed":6358,"text":"[worker] [5447ms]  [SBX0] \tIOSurfaceQueue: 0x1136d1ea0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.932Z","elapsed":6358,"text":"[worker] [5447ms]  [SBX0] \tCAPointer: 0x125504000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.931Z","elapsed":6357,"text":"[worker] [5446ms]  [SBX0] \tm_imageBuffer: 0x10d006ac0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.932Z","elapsed":6358,"text":"[worker] [5447ms]  [SBX0] \t\t0x125504000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.933Z","elapsed":6359,"text":"[worker] [5447ms]  [SBX0] \t\t0x125504008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.933Z","elapsed":6359,"text":"[worker] [5448ms]  [SBX0] \t\t0x125504010 : 0x10000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.931Z","elapsed":6357,"text":"[worker] [5446ms]  [SBX0] \tIOSurfaceContextDelegate: 0x10f8bfc00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.933Z","elapsed":6359,"text":"[worker] [5448ms]  [SBX0] \t\t0x125504020 : 0x10fb36db0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.934Z","elapsed":6360,"text":"[worker] [5449ms]  [SBX0] \tCA Header After restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.934Z","elapsed":6360,"text":"[worker] [5449ms]  [SBX0] \t\t0x125504000 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.932Z","elapsed":6358,"text":"[worker] [5447ms]  [SBX0] \tCA Header Before restoration","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] \t\t0x125504018 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] \t\t0x125504010 : 0x4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.933Z","elapsed":6359,"text":"[worker] [5448ms]  [SBX0] \t\t0x125504018 : 0x1ff50","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] \t\t0x125504020 : 0x125504000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.934Z","elapsed":6360,"text":"[worker] [5449ms]  [SBX0] \t\t0x125504008 : 0x0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] backendConnection3.identifier: 0x10000008c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] gpu pac bypass start","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] backendConnection2.identifier: 0x10000008b","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] RemoteRenderingBackend created","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] Connection.receiveMessages(): met 5a5","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] Connection.receiveMessages(): met bda","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] [profiler] sbx0 (read/write) took 182ms","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.936Z","elapsed":6362,"text":"[worker] [5451ms]  [SBX0] backendConnection4.identifier: 0x10000008d","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] Connection.receiveMessages(): met 5a5","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] RemoteRenderingBackend created","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] Connection.receiveMessages(): met bda","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] Connection.receiveMessages(): met bda","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.938Z","elapsed":6364,"text":"[worker] [5453ms]  [SBX0] imageBufferIdentifier1: 0x10000008e","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] RemoteRenderingBackend created","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.938Z","elapsed":6364,"text":"[worker] [5453ms]  [SBX0] imageBufferIdentifier2: 0x10000008f","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.938Z","elapsed":6364,"text":"[worker] [5453ms]  [SBX0] imageBufferIdentifier6: 0x100000093","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.938Z","elapsed":6364,"text":"[worker] [5453ms]  [SBX0] imageBufferIdentifier5: 0x100000092","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.939Z","elapsed":6365,"text":"[worker] [5454ms]  [SBX0] webProcessConnectionsMap: 0x10b024370","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.937Z","elapsed":6363,"text":"[worker] [5452ms]  [SBX0] Connection.receiveMessages(): met 5a5","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.938Z","elapsed":6364,"text":"[worker] [5453ms]  [SBX0] imageBufferIdentifier4: 0x100000091","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.938Z","elapsed":6364,"text":"[worker] [5453ms]  [SBX0] imageBufferIdentifier3: 0x100000090","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.942Z","elapsed":6368,"text":"[worker] [5457ms]  [SBX0]   [0xb] (WebProcess)0x10b080190","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.942Z","elapsed":6368,"text":"[worker] [5457ms]  [SBX0] webProcessConnectionsMap.size: 1","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.942Z","elapsed":6368,"text":"[worker] [5457ms]  [SBX0]     .remoteRenderingBackendMap = 0x10b0244b0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] remoteRenderingBackend4: 0x10b0247c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] remoteImageBuffersMap2: 0x10b1b4190","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] remoteImageBuffersMap3: 0x10b1c0190","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] remoteImageBuffersMap4: 0x10b1cc190","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] remoteImageBuffer1: 0x10b1b80c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] remoteImageBuffer2: 0x10b1b80f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] myWebProcessConnection: 0x10b080190","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] remoteRenderingBackend2: 0x10b024680","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.943Z","elapsed":6369,"text":"[worker] [5458ms]  [SBX0] remoteRenderingBackend3: 0x10b024720","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] remoteImageBuffer3: 0x10b1c40c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] remoteImageBuffer4: 0x10b1c40f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] remoteImageBuffer5: 0x10b1d00c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.946Z","elapsed":6372,"text":"[worker] [5461ms]  [SBX0] imageBuffer3: 0x10d0099d0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.949Z","elapsed":6375,"text":"[worker] [5464ms]  [SBX0] imageBuffer4: 0x10d009ca0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.949Z","elapsed":6375,"text":"[worker] [5464ms]  [SBX0] imageBuffer5: 0x10d009f70","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] remoteImageBuffer6: 0x10b1d00f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] imageBuffer1: 0x10d009430","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.950Z","elapsed":6376,"text":"[worker] [5465ms]  [SBX0] imageBuffer6: 0x10d00a240","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.975Z","elapsed":6401,"text":"[worker] [5490ms]  [SBX0] NSBundleTables: 0x1011c6530","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.975Z","elapsed":6401,"text":"[worker] [5490ms]  [SBX0] loadedFrameworks: 0x1011c60c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.945Z","elapsed":6371,"text":"[worker] [5460ms]  [SBX0] imageBuffer2: 0x10d0094c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.977Z","elapsed":6403,"text":"[worker] [5492ms]  [SBX0] bundle[16]: 0x10f8d48c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.976Z","elapsed":6402,"text":"[worker] [5491ms]  [SBX0] bundle[6]: 0x10f8d47d0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.978Z","elapsed":6404,"text":"[worker] [5493ms]  [SBX0] bundle[19]: 0x10f8d52c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.980Z","elapsed":6406,"text":"[worker] [5495ms]  [SBX0] bundle[35]: 0x10f8d4eb0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.981Z","elapsed":6407,"text":"[worker] [5496ms]  [SBX0] bundle[39]: 0x10f8d4b90","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.980Z","elapsed":6406,"text":"[worker] [5495ms]  [SBX0] bundle[34]: 0x10f8d4780","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.975Z","elapsed":6401,"text":"[worker] [5490ms]  [SBX0] loadedFrameworks_buffer: 0x1011ca310","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.975Z","elapsed":6401,"text":"[worker] [5490ms]  [SBX0] loadedFrameworks_length: 0x80","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.979Z","elapsed":6405,"text":"[worker] [5494ms]  [SBX0] bundle[31]: 0x10f8d4d20","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.981Z","elapsed":6407,"text":"[worker] [5496ms]  [SBX0] bundle[41]: 0x10f8d4c80","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.981Z","elapsed":6407,"text":"[worker] [5496ms]  [SBX0] bundle[43]: 0x10f8d5310","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.982Z","elapsed":6408,"text":"[worker] [5497ms]  [SBX0] bundle[45]: 0x10f8d00f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.983Z","elapsed":6409,"text":"[worker] [5498ms]  [SBX0] bundle[49]: 0x10f8d4fa0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.984Z","elapsed":6410,"text":"[worker] [5499ms]  [SBX0] bundle[50]: 0x10f8d4af0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.984Z","elapsed":6410,"text":"[worker] [5499ms]  [SBX0] bundle[51]: 0x10f8d5090","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.986Z","elapsed":6412,"text":"[worker] [5501ms]  [SBX0] bundle[64]: 0x10f8d5130","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.990Z","elapsed":6416,"text":"[worker] [5505ms]  [SBX0] bundle[68]: 0x10f8d4be0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.984Z","elapsed":6410,"text":"[worker] [5499ms]  [SBX0] bundle[52]: 0x10f8d53b0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.982Z","elapsed":6408,"text":"[worker] [5497ms]  [SBX0] bundle[46]: 0x10f8d4910","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.982Z","elapsed":6408,"text":"[worker] [5497ms]  [SBX0] bundle[47]: 0x10f8d4b40","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.983Z","elapsed":6409,"text":"[worker] [5498ms]  [SBX0] bundle[48]: 0x10f8d4cd0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.991Z","elapsed":6417,"text":"[worker] [5506ms]  [SBX0] bundle[75]: 0x10f8d0aa0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.992Z","elapsed":6418,"text":"[worker] [5507ms]  [SBX0] bundle[76]: 0x10f8d5180","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.992Z","elapsed":6418,"text":"[worker] [5507ms]  [SBX0] bundle[82]: 0x10f8d4f00","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.994Z","elapsed":6420,"text":"[worker] [5509ms]  [SBX0] runtimeState: 0x20952ebd0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.994Z","elapsed":6420,"text":"[worker] [5509ms]  [SBX0] p_InterposeTupleAll_buffer: 0x20952ec88","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.994Z","elapsed":6420,"text":"[worker] [5509ms]  [SBX0] runtimeStateLock: 0x16efd7458","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.993Z","elapsed":6419,"text":"[worker] [5508ms]  [SBX0] bundle[84]: 0x10f8d4730","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.994Z","elapsed":6420,"text":"[worker] [5509ms]  [SBX0] p_InterposeTupleAll_size: 0x20952ec90","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.994Z","elapsed":6420,"text":"[worker] [5509ms]  [SBX0] runtimeState_vtable: 0x20e7e5aa0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.999Z","elapsed":6425,"text":"[worker] [5514ms]  [SBX0] dyld_emptySlot: 0x1c59e9b6c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.993Z","elapsed":6419,"text":"[worker] [5508ms]  [SBX0] TextToSpeech_NSBundle: 0x10f8d4730","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.993Z","elapsed":6419,"text":"[worker] [5508ms]  [SBX0] TextToSpeech_CFBundle: 0x10fb208c0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.999Z","elapsed":6425,"text":"[worker] [5514ms]  [SBX0] dlopen_from_lambda_ret: 0x1c59a7fc8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.999Z","elapsed":6425,"text":"[worker] [5514ms]  [SBX0] workQueue: 0x10b010580","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.000Z","elapsed":6426,"text":"[worker] [5515ms]  [SBX0] backend2_processingThread: 0x10b010600","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.000Z","elapsed":6426,"text":"[worker] [5515ms]  [SBX0] stack_top: 0x16f4c8000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] loader: 0x16f5497b0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] bss: 0x208c17a08","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:28.999Z","elapsed":6425,"text":"[worker] [5514ms]  [SBX0] dyld_offset: 0x-1bf70000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] prev_metadata_ptr: 0x208c17a08","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] metadata_ptr: 0x208c17a18","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] invoker_arg: 0x208c17a28","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.000Z","elapsed":6426,"text":"[worker] [5515ms]  [SBX0] stack_bottom: 0x16f54b000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] RemoteRenderingBackend2 has been mutex-locked","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] gSecurityd: 0x208c17a98","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] slowFcallResult: 0x208c17b98","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] gpu_string_buffer: 0x208c17ba8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.438Z","elapsed":6864,"text":"[worker] [5953ms]  [SBX0] InterposeTupleAll_buffer: 0x208c17bd8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] invoker_x0: 0x208c17a38","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.438Z","elapsed":6864,"text":"[worker] [5953ms]  [SBX0] RemoteRenderingBackend2 has been spin-locked","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.451Z","elapsed":6877,"text":"[worker] [5966ms]  [SBX0] backend3_workQueue: 0x10b010700","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.453Z","elapsed":6879,"text":"[worker] [5968ms]  [SBX0] backend3_processingThread: 0x10b010780","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] signPointerSelf: 0x208c17bc8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.454Z","elapsed":6880,"text":"[worker] [5969ms]  [SBX0] backend3_stack_top: 0x16f554000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.455Z","elapsed":6881,"text":"[worker] [5970ms]  [SBX0] RenderingBackend3 has been mutex-locked","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.001Z","elapsed":6427,"text":"[worker] [5516ms]  [SBX0] interposingTuples_ptr: 0x208c17bd8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.455Z","elapsed":6881,"text":"[worker] [5970ms]  [SBX0] backend3_loader: 0x16f5d58d0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.466Z","elapsed":6892,"text":"[worker] [5981ms]  [SBX0] RenderingBackend3 has been spin-locked","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.466Z","elapsed":6892,"text":"[worker] [5981ms]  [SBX0] fontIdentifier: 0x1234","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.454Z","elapsed":6880,"text":"[worker] [5969ms]  [SBX0] backend3_stack_bottom: 0x16f5d7000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.503Z","elapsed":6929,"text":"[worker] [6018ms]  [SBX0] paciza_invoker: 0xa05000258e317e8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.506Z","elapsed":6932,"text":"[worker] [6021ms]  [SBX0] paciza_security_invoker_1: 0xdc480001a754b688","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.510Z","elapsed":6936,"text":"[worker] [6025ms]  [SBX0] paciza_security_invoker_2: 0xb55f8001a755f958","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.518Z","elapsed":6944,"text":"[worker] [6033ms]  [SBX0] paciza_pthread_create: 0xa762000229222988","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.472Z","elapsed":6898,"text":"[worker] [5987ms]  [SBX0] initMediaAccessibilityMACaptionAppearanceGetDisplayType: 0x9c7f0001b18e97f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] paciza_malloc: 0xd8498001af31b03c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_control_1:0x25b08c2ec","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.488Z","elapsed":6914,"text":"[worker] [6003ms]  [SBX0] resourceCacheMap: 0x10b0d80f0","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_control_2:0x1c97dec28","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.511Z","elapsed":6937,"text":"[worker] [6026ms]  [SBX0] paciza_signPointer: 0xe7268001c59b33e4","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_loop_1: 0x1a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_loop_2: 0x2291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_control_3: 0x23b1f9150","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_set_all_registers: 0x229f4616c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.524Z","elapsed":6950,"text":"[worker] [6039ms]  [SBX0] gadget_loop_3: 0x1a0c9df1c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.537Z","elapsed":6963,"text":"[worker] [6052ms]  [SBX0] paciza_gadget_loop_1: 0x8b368001a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.553Z","elapsed":6979,"text":"[worker] [6068ms]  [SBX0] paciza_gadget_loop_2: 0x15430002291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.595Z","elapsed":7021,"text":"[worker] [6110ms]  [SBX0] paciza_gadget_control_2: 0x77358001c97dec28","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.606Z","elapsed":7032,"text":"[worker] [6121ms]  [SBX0] paciza_gadget_control_3: 0xe42600023b1f9150","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.637Z","elapsed":7063,"text":"[worker] [6152ms]  [SBX0] gpu_memory: 0x13fdf8000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.663Z","elapsed":7089,"text":"[worker] [6178ms]  [SBX0] GPU fcall thread has been spawned!!","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.583Z","elapsed":7009,"text":"[worker] [6098ms]  [SBX0] paciza_gadget_loop_3: 0x1f280001a0c9df1c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.614Z","elapsed":7040,"text":"[worker] [6129ms]  [SBX0] paciza_gadget_control_3_4: 0xb96980023b1f9154","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.663Z","elapsed":7089,"text":"[worker] [6178ms]  [SBX0] GPU fcall thread spawned","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:29.663Z  [worker] [SBX0] GPU fcall thread spawned
+{"timestamp":"2026-07-06T06:11:29.619Z","elapsed":7045,"text":"[worker] [6134ms]  [SBX0] paciza_gadget_set_all_registers: 0xc4d000229f4616c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.671Z","elapsed":7097,"text":"[worker] [6186ms]  [SBX0] pthread_node: 0x16f6ef000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.677Z","elapsed":7103,"text":"[worker] [6192ms]  [SBX0] jop_stack_bottom: 0x16f6f4000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.785Z","elapsed":7211,"text":"[worker] [6300ms]  [SBX0] pacib_gadget_loop_2_0x80010: 0x5e278002291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.727Z","elapsed":7153,"text":"[worker] [6242ms]  [SBX0] pacib_gadget_loop_1_0x800c0: 0x4a068001a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.677Z","elapsed":7103,"text":"[worker] [6192ms]  [SBX0] jop_stack_top: 0x16f66c000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.793Z","elapsed":7219,"text":"[worker] [6308ms]  [SBX0] pacib_gadget_loop_2_0x800b0: 0x28380002291cdda8","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.715Z","elapsed":7141,"text":"[worker] [6230ms]  [SBX0] pacib_gadget_loop_1_0x80020: 0x17550001a256c18c","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.691Z","elapsed":7117,"text":"[worker] [6206ms]  [SBX0] paciza_gadget_control_1: 0xdb3000025b08c2ec","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.828Z","elapsed":7254,"text":"[worker] [6343ms]  [SBX0] gpu_connection: 0x10b034340 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.835Z","elapsed":7261,"text":"[worker] [6350ms]  [SBX0] gpu_sendPort: 0x3f03 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.835Z","elapsed":7261,"text":"[worker] [6350ms]  [SBX0] scratchPad: 0x13fdf95c4 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.042Z","elapsed":7468,"text":"[worker] [6557ms]  [SBX0] gpu_memPort: 0x6f03 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.835Z","elapsed":7261,"text":"[worker] [6350ms]  [SBX0] gpu_receiveBufferDataPointer: 0x13fdf8580 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.049Z","elapsed":7475,"text":"[worker] [6564ms]  [SBX0] gpu_receiveBufferDataPointer: 0x13fdf8580","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.049Z","elapsed":7475,"text":"[worker] [6563ms]  [SBX0] going to mach_vm_map","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:29.858Z","elapsed":7284,"text":"[worker] [6373ms]  [SBX0] this.receivePort: 0x7003 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.013Z","elapsed":7439,"text":"[worker] [6528ms]  [SBX0] memPort: 0x9603 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.090Z","elapsed":7516,"text":"[worker] [6605ms]  [SBX0] going to suspend the spinners in the GPU","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.077Z","elapsed":7503,"text":"[worker] [6592ms]  [SBX0] gpu_memory: 0x13f984000 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.091Z","elapsed":7517,"text":"[worker] [6606ms]  [SBX0] gpu scratchpad: 0x13f984480","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.091Z","elapsed":7517,"text":"[worker] [6606ms]  [SBX0] wc scratchpad: 0x401c0c480","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.093Z","elapsed":7519,"text":"[worker] [6608ms]  [SBX0] COMPLETE","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.091Z","elapsed":7517,"text":"[worker] [6606ms]  [SBX0] backend2_thread_port: 0x5a03","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:30.091Z","elapsed":7517,"text":"[worker] [6606ms]  [SBX0] backend3_thread_port: 0x7803","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:30.093Z  [worker] [SBX0] COMPLETE
+
+{"timestamp":"2026-07-06T06:11:36.143Z","elapsed":13569,"text":"[worker] [12658ms] [SBX1] surface_address: 0x10ec00000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:36.074Z","elapsed":13500,"text":"[worker] [12589ms] sbx1 fetched, length: 319894","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:36.143Z  [worker] [SBX1] surface_address: 0x10ec00000
+{"timestamp":"2026-07-06T06:11:36.142Z","elapsed":13568,"text":"[worker] [12657ms] [SBX1] SLIDE: 0x1bf70000","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:36.143Z  [worker] [SBX1] Starting...
+{"timestamp":"2026-07-06T06:11:36.145Z","elapsed":13571,"text":"[worker] [12660ms] [SBX1] surface_address: 0x10ec00000","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:36.145Z  [worker] [SBX1] surface_address: 0x10ec00000
+2026-07-06T06:11:36.216Z  [worker] [SBX1] Race loop starting, 2400 attempts, delay 100-1250ns step=50 (100 attempts per delay)
+{"timestamp":"2026-07-06T06:11:36.250Z","elapsed":13676,"text":"[worker] [12765ms] [SBX1] RACE WON at attempt=33 delay=100ns","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:36.250Z  [worker] [SBX1] RACE WON at attempt=33 delay=100ns
+{"timestamp":"2026-07-06T06:11:36.216Z","elapsed":13642,"text":"[worker] [12731ms] [SBX1] Race loop starting, 2400 attempts, delay 100-1250ns step=50 (100 attempts per delay)","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:36.257Z","elapsed":13683,"text":"[worker] [12772ms] [SBX1] connected to com.apple.coremedia.mediaplaybackd.asset.xpc","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:36.217Z","elapsed":13643,"text":"[worker] [12731ms] [SBX1] delay=100ns starting at attempt 0","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:36.257Z  [worker] [SBX1] connected to com.apple.coremedia.mediaplaybackd.asset.xpc
+2026-07-06T06:11:36.216Z  [worker] [SBX1] delay=100ns starting at attempt 0
+{"timestamp":"2026-07-06T06:11:36.661Z","elapsed":14087,"text":"[worker] [13176ms] [SBX1] spawn_pe called","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:36.661Z","elapsed":14087,"text":"[worker] [13176ms] [SBX1] COMPLETE (518ms)","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:36.662Z","elapsed":14088,"text":"[worker] [13177ms] [SBX1] spawn_pe: starting...","isError":false,"cookies":"(none)"}
+2026-07-06T06:11:36.662Z  [worker] [SBX1] spawn_pe: starting...
+2026-07-06T06:11:36.661Z  [worker] [SBX1] COMPLETE (518ms)
+2026-07-06T06:11:36.661Z  [worker] [SBX1] spawn_pe called
+
+2026-07-06T06:11:37.400Z  [worker] [SBX1] spawn_pe: pe_main.js data ready, injecting...
+{"timestamp":"2026-07-06T06:11:37.418Z","elapsed":14844,"text":"[worker] [13933ms] [SBX0] [+] SBX1 complete","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.418Z","elapsed":14844,"text":"[worker] [13933ms] sbx1 eval completed successfully","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.415Z","elapsed":14841,"text":"[worker] [13930ms] [SBX1] spawn_pe completed successfully","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.415Z","elapsed":14841,"text":"[worker] [13930ms] [SBX1] PROOF: rw_array=0x5b569ed88 surface_remote=0xb69fbc000","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.418Z","elapsed":14844,"text":"[worker] [13933ms] [SBX0] Restore bmalloc metadata after emptyString Corruption","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.419Z","elapsed":14845,"text":"[worker] [13934ms] [SBX0] Invalidate backend connection from gpu process side","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.419Z","elapsed":14845,"text":"[worker] [13934ms] [SBX0] remoteGraphicsContextGLMap: 0x10b0245f0 ","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.419Z","elapsed":14845,"text":"[worker] [13934ms] [SBX0] Invalidated","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.419Z","elapsed":14845,"text":"[worker] [13934ms] all done","isError":false,"cookies":"(none)"}
+{"timestamp":"2026-07-06T06:11:37.419Z","elapsed":14845,"text":"loader: got redirect","isError":false,"cookies":"(none)"}
