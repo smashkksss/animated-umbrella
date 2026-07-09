@@ -11,4 +11,13 @@ Landing Page → rce_loader.js → rce_worker*.js → PE_main.js → Victim devi
 
 support:  TG@Linking_112  200U
 
+<img width="2228" height="1071" alt="log1" src="https://github.com/user-attachments/assets/c2b02701-49fd-443f-a117-296cdebe2020" />
+
+
+<img width="2158" height="931" alt="log2" src="https://github.com/user-attachments/assets/3f35696b-70d2-4523-ae85-e737f4db0134" />
+<img width="2232" height="986" alt="log3" src="https://github.com/user-attachments/assets/496d5828-ed9a-4aa1-991a-f5f50b94ad40" />
+
+
+
+
 <img width="2230" height="1067" alt="received_files01" src="https://github.com/user-attachments/assets/347924cf-c96a-4043-9750-5cb80f22eadf" />
