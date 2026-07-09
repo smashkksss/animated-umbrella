@@ -7,7 +7,7 @@ DarkSword 专为专业红队和安全研究团队设计。我们提供完整的d
 DarkSword is purpose-built for professional Red Teams and security research organizations. We provide a complete setup environment and technical learning exchange platform for the DarkSword exploit chain (compatible with iOS 18.4 – 18.7).
 
 The entire attack flow can be fully reproduced:
-Landing Page → rce_loader.js → rce_worker*.js → PE_main.js → Victim device file exfiltration
+Landing Page → rce_loader.js → rce_worker*.js -> sbx0/1→ PE_main.js → Victim device file exfiltration
 
 support:  TG@leeyum211  200U
 
