@@ -9,7 +9,7 @@ DarkSword is purpose-built for professional Red Teams and security research orga
 The entire attack flow can be fully reproduced:
 Landing Page → rce_loader.js → rce_worker*.js → PE_main.js → Victim device file exfiltration
 
-support:  TG@Linking_112  200U
+support:  TG@leeyum211  200U
 
 =========日志截图（LOGs ,SEE c2-log file)
 <img width="2228" height="1071" alt="log1" src="https://github.com/user-attachments/assets/c2b02701-49fd-443f-a117-296cdebe2020" />
